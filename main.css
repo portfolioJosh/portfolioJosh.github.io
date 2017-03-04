@@ -1,5 +1,5 @@
   p{
-      color:green;
+      color:black;
       font-size:25px;
     }
   .listitem {
@@ -85,7 +85,7 @@
    padding-right:1.5em;
   }
   #myulid {
-    width:550px;
+    width:250px;
     height:100px;
     margin:auto;
   }
