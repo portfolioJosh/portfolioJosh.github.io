@@ -20,7 +20,7 @@
        function answer(){
           var radio = document.getElementsByName("trivia");
           var selection = false;
-          var message = "Try again my friend.";
+          var message = "";
 
          for( var i = 0; i < radio.length; i++) {
            if(radio[i].value == "kcr" && radio[i].checked == true) {
@@ -31,7 +31,7 @@
           if(selection == true) {
             message = message + "<b><p style='color:green'>Way to Go!</p></b>";
           } else { 
-           message = message + "<b><p style='color:red'>Try again my friend.</p></b>";
+           message = message + "<b><p style='color:orange'>Try again my friend.</p></b>";
           }
           document.getElementById("response").innerHTML = message;
         } //end function answer      
